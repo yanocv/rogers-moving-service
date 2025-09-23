@@ -1,3 +1,5 @@
+import "./globals.css";
+import "../features/landing-page/styles.css";
 import React from "react";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
