@@ -21,9 +21,13 @@ import {
   Award,
   Zap,
 } from "lucide-react";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 import React, { useState, useEffect } from "react";
 
 const LandingPage = () => {
+  const params = useParams();
+  const locale = typeof params?.locale === "string" ? params.locale : "en";
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -104,12 +108,12 @@ const LandingPage = () => {
                 >
                   Services
                 </a>
-                <a
-                  href="#about"
+                <Link
+                  href={`/${locale}/about`}
                   className="px-3 py-2 text-sm font-medium text-gray-900 transition-colors hover:text-blue-600"
                 >
                   About
-                </a>
+                </Link>
                 <a
                   href="#contact"
                   className="px-3 py-2 text-sm font-medium text-gray-900 transition-colors hover:text-blue-600"
@@ -229,9 +233,9 @@ const LandingPage = () => {
       <section className="bg-gray-900 py-16 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <div
-                key={index}
+                key={stat.label}
                 className="group text-center transition-transform duration-300 hover:scale-105"
               >
                 <div className="mb-4 flex justify-center">
@@ -301,8 +305,8 @@ const LandingPage = () => {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {services.map((service, index) => (
-              <div key={index} className="group">
+            {services.map((service) => (
+              <div key={service.title} className="group">
                 <div className="h-full transform rounded-2xl bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
                   <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-blue-100 transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white">
                     {service.icon}
@@ -310,8 +314,8 @@ const LandingPage = () => {
                   <h3 className="mb-4 text-2xl font-bold text-gray-900">{service.title}</h3>
                   <p className="mb-6 leading-relaxed text-gray-600">{service.description}</p>
                   <ul className="space-y-2">
-                    {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-gray-700">
+                    {service.features.map((feature) => (
+                      <li key={feature} className="flex items-center text-gray-700">
                         <Check className="mr-2 h-5 w-5 flex-shrink-0 text-green-500" />
                         {feature}
                       </li>
@@ -448,8 +452,8 @@ const LandingPage = () => {
                   "Electronics recycling",
                   "Furniture removal service",
                   "Document shredding available",
-                ].map((feature, index) => (
-                  <div key={index} className="flex items-center">
+                ].map((feature) => (
+                  <div key={feature} className="flex items-center">
                     <Check className="mr-3 h-5 w-5 flex-shrink-0 text-green-500" />
                     <span className="text-gray-700">{feature}</span>
                   </div>
