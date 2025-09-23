@@ -1,0 +1,17 @@
+{
+  "home": "Home",
+  "about": "About",
+  "contact": "Contact",
+  "services": "Services",
+  "jobs": "Jobs",
+  "testimonials": "Testimonials",
+  "inquiry": "Inquiry",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "loading": "Loading...",
+  "error": "An error occurred. Please try again.",
+  "success": "Operation successful.",
+  "language": "Language",
+  "english": "English",
+  "japanese": "Japanese"
+}
