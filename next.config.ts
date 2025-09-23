@@ -1,7 +1,16 @@
-import type { NextConfig } from "next";
+import nextBundleAnalyzer from "@next/bundle-analyzer";
+import createNextIntlPlugin from "next-intl/plugin";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const withBundleAnalyzer = nextBundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
+
+const withNextIntl = createNextIntlPlugin();
+
+const nextConfig = {
+  // your Next.js configuration
+  productionBrowserSourceMaps: true, // Keep source maps for now
 };
 
-export default nextConfig;
+// Compose the plugins together
+export default withNextIntl(withBundleAnalyzer(nextConfig));
