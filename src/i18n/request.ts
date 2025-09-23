@@ -9,7 +9,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const locale = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
 
   const messageFiles = [
-    "landing-page",
+    "landing",
     "about",
     "services",
     "inquiry",

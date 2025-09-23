@@ -14,7 +14,7 @@ type Props = {
 };
 
 export default async function Home({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Enable static rendering
   setRequestLocale(locale);
