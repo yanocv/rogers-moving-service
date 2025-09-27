@@ -24,6 +24,14 @@ const languageOptions: LanguageOption[] = [
     value: "ja",
     label: "日本語",
   },
+  {
+    value: "pt",
+    label: "Português",
+  },
+  {
+    value: "es",
+    label: "Español",
+  },
 ];
 
 export default function LanguageSwitcher() {
@@ -44,7 +52,7 @@ export default function LanguageSwitcher() {
 
   return (
     <Select value={locale} onValueChange={handleLanguageChange} disabled={isPending}>
-      <SelectTrigger className="animate-fade-in-up w-fit min-w-[140px] cursor-pointer rounded border border-gray-200 bg-white px-3 py-2 shadow">
+      <SelectTrigger className="cursor-pointer rounded-full border border-gray-200 bg-white px-6 py-2 font-medium text-gray-900 shadow transition-colors hover:bg-gray-50">
         <div className="flex items-center gap-2">
           <Globe className="h-4 w-4" />
           <SelectValue>
@@ -59,7 +67,11 @@ export default function LanguageSwitcher() {
       </SelectTrigger>
       <SelectContent>
         {languageOptions.map((option) => (
-          <SelectItem key={option.value} value={option.value} className="cursor-pointer">
+          <SelectItem
+            key={option.value}
+            value={option.value}
+            className="cursor-pointer border-b border-gray-100 bg-white px-4 py-2 text-gray-900 transition-colors hover:bg-blue-50 hover:text-blue-600"
+          >
             <span className="flex items-center gap-2">
               <span>{option.label}</span>
             </span>

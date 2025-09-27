@@ -1,11 +1,11 @@
 {
   "Header": {
     "nav": {
-      "home": "Home",
-      "services": "Services",
-      "about": "About",
-      "contact": "Contact",
-      "quote": "Get Quote"
+      "home": "Início",
+      "services": "Serviços",
+      "about": "Sobre",
+      "contact": "Contato",
+      "quote": "Solicitar Orçamento"
     }
   },
   "home": "Home",

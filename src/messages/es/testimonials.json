@@ -1,0 +1,17 @@
+{
+  "title": "Customer Testimonials",
+  "description": "Hear from our satisfied customers.",
+  "reviews": [
+    {
+      "name": "John D.",
+      "text": "Rogers Moving Service made my move stress-free and efficient!"
+    },
+    {
+      "name": "Emily S.",
+      "text": "Professional team and great pricing. Highly recommended."
+    }
+  ],
+  "addReview": "Add Your Review",
+  "success": "Thank you for your feedback!",
+  "error": "Failed to submit review. Please try again."
+}

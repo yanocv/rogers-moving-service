@@ -16,6 +16,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "contact",
     "testimonials",
     "jobs",
+    "common",
   ];
 
   // Load all message files into their own namespaces

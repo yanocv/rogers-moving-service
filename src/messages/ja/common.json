@@ -1,4 +1,13 @@
 {
+  "Header": {
+    "nav": {
+      "home": "ホーム",
+      "services": "サービス",
+      "about": "会社概要",
+      "contact": "お問い合わせ",
+      "quote": "見積もり依頼"
+    }
+  },
   "home": "ホーム",
   "about": "会社概要",
   "contact": "お問い合わせ",
