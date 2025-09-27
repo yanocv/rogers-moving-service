@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 
+import Header from "@/components/Header";
 import { routing } from "@/i18n/routing";
 
 type Props = {
@@ -24,5 +25,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   // side is the easiest way to get started
   const messages = await getMessages();
 
-  return <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>;
+  return (
+    <NextIntlClientProvider messages={messages}>
+      <Header />
+      {children}
+    </NextIntlClientProvider>
+  );
 }
