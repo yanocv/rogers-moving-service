@@ -372,7 +372,7 @@ export default function Contact() {
 
           <div className="mx-auto max-w-4xl space-y-4">
             {faqData.map((faq, index) => (
-              <div key={index} className="rounded-lg border border-gray-200">
+              <div key={faq.question} className="rounded-lg border border-gray-200">
                 <button
                   onClick={() => toggleFaq(index)}
                   className="w-full p-6 text-left focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-inset"
