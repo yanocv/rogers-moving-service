@@ -34,7 +34,7 @@ export default function Header() {
           <div className="flex items-center">
             <div className="flex flex-shrink-0 items-center">
               <Truck className="mr-2 h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-gray-900">Roger's Moving JP</span>
+              <span className="text-2xl font-bold text-gray-900">Roger&#39;s Moving JP</span>
             </div>
           </div>
 

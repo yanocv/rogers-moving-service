@@ -2,6 +2,8 @@
 import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+import { Button } from "@/components/ui/button";
+
 const CTASection = () => {
   const t = useTranslations("landing");
   return (
@@ -10,14 +12,14 @@ const CTASection = () => {
         <h2 className="mb-6 text-4xl font-bold md:text-5xl">{t("cta.title")}</h2>
         <p className="mb-8 text-xl opacity-90 md:text-2xl">{t("cta.desc")}</p>
         <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <button className="group flex transform items-center rounded-full bg-white px-8 py-4 text-lg font-semibold text-blue-600 transition-all duration-300 hover:scale-105 hover:bg-gray-100">
+          <Button className="group flex h-16 min-w-[180px] transform items-center rounded-full bg-white px-8 py-4 text-lg font-semibold text-blue-600 transition-all duration-300 hover:scale-105 hover:bg-gray-100">
             <Phone className="mr-2 h-5 w-5" />
             {t("cta.call")}
-          </button>
-          <button className="flex items-center rounded-full border-2 border-white px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-white hover:text-blue-600">
+          </Button>
+          <Button className="flex h-16 min-w-[180px] items-center rounded-full border-2 border-white px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-white hover:text-blue-600">
             <Mail className="mr-2 h-5 w-5" />
             {t("cta.email")}
-          </button>
+          </Button>
         </div>
         <div className="flex flex-col items-center justify-center gap-8 text-sm opacity-80 sm:flex-row">
           <div className="flex items-center">

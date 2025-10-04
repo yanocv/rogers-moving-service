@@ -2,6 +2,8 @@
 import { Truck, ChevronDown, ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+import { Button } from "@/components/ui/button";
+
 const HeroSection = () => {
   const t = useTranslations("landing");
   return (
@@ -34,13 +36,13 @@ const HeroSection = () => {
           </p>
 
           <div className="mb-16 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <button className="group flex transform items-center rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-blue-700 hover:shadow-xl">
+            <Button className="group flex h-16 min-w-[200px] transform items-center rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-blue-700 hover:shadow-xl">
               {t("hero.cta.quote")}
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </button>
-            <button className="rounded-full border-2 border-blue-600 px-8 py-4 text-lg font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white">
+            </Button>
+            <Button className="h-16 min-w-[200px] rounded-full border-2 border-blue-600 px-8 py-4 text-lg font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-600 hover:text-white">
               {t("hero.cta.learn")}
-            </button>
+            </Button>
           </div>
         </div>
 
