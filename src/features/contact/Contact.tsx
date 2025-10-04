@@ -4,9 +4,9 @@ import { Phone, Mail, MapPin, Clock, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
-import FacebookIcon from "@/components/common/FacebookIcon";
-import InstagramIcon from "@/components/common/InstagramIcon";
-import WhatsAppIcon from "@/components/common/WhatsAppIcon";
+import FacebookIcon from "@/components/icons/FacebookIcon";
+import InstagramIcon from "@/components/icons/InstagramIcon";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import PageTitle from "@/components/PageTitle";
 import { Button } from "@/components/ui/button";
 
@@ -39,7 +39,7 @@ export default function Contact() {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       setSubmitStatus("success");
       setFormData({ name: "", email: "", phone: "", service: "", message: "" });
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -169,7 +169,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <WhatsAppIcon className="h-6 w-6 text-green-600" />
+                  <WhatsAppIcon className="h-8 w-8 text-green-600" />
                   <div>
                     <p className="font-semibold text-green-800">{t("quickContact.whatsapp")}</p>
                     <p className="text-sm text-green-600">{t("quickContact.whatsappText")}</p>
