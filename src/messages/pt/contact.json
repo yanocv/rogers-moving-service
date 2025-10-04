@@ -1,11 +1,96 @@
 {
-  "title": "Contact Us",
-  "description": "Get in touch with Rogers Moving Service for inquiries or support.",
-  "name": "Name",
-  "email": "Email",
-  "phone": "Phone",
-  "message": "Message",
-  "submit": "Send Message",
-  "success": "Your message has been sent successfully.",
-  "error": "Failed to send message. Please try again."
+  "title": "Fale Conosco",
+  "subtitle": "Entre em contato com a Rogers Moving Service para todas as suas necessidades de mudança",
+  "contactInfo": {
+    "title": "Informações de Contato",
+    "phone": "Telefone",
+    "phoneNumber": "(555) 123-4567",
+    "email": "E-mail",
+    "emailAddress": "info@rogersmovingservice.com",
+    "address": "Endereço",
+    "fullAddress": "123 Rua Principal, Sala 100, Sua Cidade, Estado 12345"
+  },
+  "businessHours": {
+    "title": "Horário de Funcionamento",
+    "monday": "Segunda-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "thursday": "Quinta-feira",
+    "friday": "Sexta-feira",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "weekdays": "8:00 - 18:00",
+    "saturday_hours": "9:00 - 16:00",
+    "sunday_hours": "Fechado",
+    "emergency": "Serviço de emergência 24 horas disponível"
+  },
+  "contactForm": {
+    "title": "Solicite um Orçamento Gratuito",
+    "name": "Nome Completo",
+    "namePlaceholder": "Digite seu nome completo",
+    "email": "Endereço de E-mail",
+    "emailPlaceholder": "Digite seu e-mail",
+    "phone": "Telefone",
+    "phonePlaceholder": "Digite seu telefone",
+    "service": "Tipo de Serviço",
+    "servicePlaceholder": "Selecione o tipo de serviço",
+    "serviceOptions": {
+      "residential": "Mudança Residencial",
+      "commercial": "Mudança Comercial",
+      "longDistance": "Mudança de Longa Distância",
+      "storage": "Serviços de Armazenamento",
+      "packing": "Serviços de Empacotamento"
+    },
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte-nos sobre suas necessidades de mudança...",
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Obrigado! Retornaremos em até 24 horas.",
+    "error": "Algo deu errado. Por favor, tente novamente ou ligue diretamente para nós."
+  },
+  "quickContact": {
+    "title": "Contato Rápido",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Converse conosco pelo WhatsApp",
+    "call": "Ligue Agora",
+    "callText": "Fale com nossa equipe",
+    "email": "Envie um E-mail",
+    "emailText": "Envie-nos um e-mail"
+  },
+  "socialMedia": {
+    "title": "Siga-nos",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "questions": [
+      {
+        "question": "Com quanto tempo de antecedência devo agendar minha mudança?",
+        "answer": "Recomendamos agendar com pelo menos 2 a 4 semanas de antecedência, especialmente nos meses de verão. Porém, podemos atender mudanças de última hora conforme disponibilidade."
+      },
+      {
+        "question": "Vocês fornecem materiais para empacotamento?",
+        "answer": "Sim, oferecemos uma variedade de materiais como caixas, plástico bolha, papel de embalagem e fita. Também temos serviço profissional de empacotamento."
+      },
+      {
+        "question": "Meus pertences estão segurados durante a mudança?",
+        "answer": "Sim, fornecemos cobertura básica para todas as mudanças. Opcionalmente, há seguros adicionais para itens valiosos. Nossa equipe explicará as opções no orçamento."
+      },
+      {
+        "question": "Quais áreas vocês atendem?",
+        "answer": "Atendemos toda a área metropolitana e fazemos mudanças de longa distância pelo estado e em todo o país. Contate-nos para confirmar atendimento em sua região."
+      },
+      {
+        "question": "Como é calculado o custo da mudança?",
+        "answer": "O custo é baseado em fatores como distância, tamanho, serviços necessários e época do ano. Oferecemos orçamentos gratuitos e detalhados, sem taxas escondidas."
+      }
+    ]
+  },
+  "map": {
+    "title": "Visite Nosso Escritório",
+    "directions": "Obter Direções"
+  }
 }

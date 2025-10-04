@@ -1,11 +1,96 @@
 {
-  "title": "Contact Us",
-  "description": "Get in touch with Rogers Moving Service for inquiries or support.",
-  "name": "Name",
-  "email": "Email",
-  "phone": "Phone",
-  "message": "Message",
-  "submit": "Send Message",
-  "success": "Your message has been sent successfully.",
-  "error": "Failed to send message. Please try again."
+  "title": "Contáctanos",
+  "subtitle": "Ponte en contacto con Rogers Moving Service para todas tus necesidades de mudanza",
+  "contactInfo": {
+    "title": "Información de Contacto",
+    "phone": "Teléfono",
+    "phoneNumber": "(555) 123-4567",
+    "email": "Correo electrónico",
+    "emailAddress": "info@rogersmovingservice.com",
+    "address": "Dirección",
+    "fullAddress": "123 Calle Principal, Suite 100, Tu Ciudad, Estado 12345"
+  },
+  "businessHours": {
+    "title": "Horario de Atención",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "weekdays": "8:00 AM - 6:00 PM",
+    "saturday_hours": "9:00 AM - 4:00 PM",
+    "sunday_hours": "Cerrado",
+    "emergency": "Servicios de emergencia disponibles 24/7"
+  },
+  "contactForm": {
+    "title": "Solicita una Cotización Gratis",
+    "name": "Nombre Completo",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "Ingresa tu número de teléfono",
+    "service": "Tipo de Servicio",
+    "servicePlaceholder": "Selecciona el tipo de servicio",
+    "serviceOptions": {
+      "residential": "Mudanza Residencial",
+      "commercial": "Mudanza Comercial",
+      "longDistance": "Mudanza de Larga Distancia",
+      "storage": "Servicios de Almacenamiento",
+      "packing": "Servicios de Empaque"
+    },
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tus necesidades de mudanza...",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Gracias! Nos pondremos en contacto dentro de 24 horas.",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo o llámanos directamente."
+  },
+  "quickContact": {
+    "title": "Contacto Rápido",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Chatea con nosotros en WhatsApp",
+    "call": "Llamar Ahora",
+    "callText": "Habla con nuestro equipo",
+    "email": "Envíanos un Correo",
+    "emailText": "Envíanos un correo electrónico"
+  },
+  "socialMedia": {
+    "title": "Síguenos",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Con cuánta anticipación debo reservar mi mudanza?",
+        "answer": "Recomendamos reservar al menos 2-4 semanas antes, especialmente durante las temporadas altas de mudanza (meses de verano). Sin embargo, a menudo podemos acomodar mudanzas de último minuto según disponibilidad."
+      },
+      {
+        "question": "¿Proporcionan materiales de empaque?",
+        "answer": "Sí, ofrecemos una gama completa de materiales de empaque incluyendo cajas, burbujas, papel de empaque y cinta. También ofrecemos servicios profesionales de empaque si prefieres que nuestro equipo se encargue de ello."
+      },
+      {
+        "question": "¿Mis pertenencias están aseguradas durante la mudanza?",
+        "answer": "Sí, ofrecemos cobertura básica para todas las mudanzas. También ofrecemos opciones de seguro adicional para objetos de valor. Nuestro equipo discutirá las opciones de cobertura contigo durante la estimación."
+      },
+      {
+        "question": "¿En qué áreas prestan servicio?",
+        "answer": "Prestamos servicios de mudanza en toda el área metropolitana y ofrecemos mudanzas de larga distancia a nivel estatal y nacional. Contáctanos para confirmar disponibilidad en tu área."
+      },
+      {
+        "question": "¿Cómo calculan los costos de mudanza?",
+        "answer": "Los costos de mudanza se basan en factores como distancia, tamaño de la mudanza, servicios requeridos y época del año. Ofrecemos estimaciones gratuitas y detalladas sin cargos ocultos."
+      }
+    ]
+  },
+  "map": {
+    "title": "Visita Nuestra Oficina",
+    "directions": "Obtener Direcciones"
+  }
 }

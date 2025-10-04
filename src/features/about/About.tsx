@@ -4,6 +4,8 @@ import { Users, Award, Shield, Star, Briefcase, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
 
+import PageTitle from "@/components/PageTitle";
+
 export default function About() {
   const t = useTranslations("about");
   const team = [
@@ -29,13 +31,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20">
-        <div className="bg-grid-pattern absolute inset-0 opacity-5" />
-        <div className="animate-fade-in-up relative z-10 mx-auto max-w-4xl px-4 text-center">
-          <h1 className="mb-6 text-5xl font-bold text-gray-900 md:text-6xl">{t("hero.title")}</h1>
-          <p className="mb-8 text-xl text-gray-700 md:text-2xl">{t("hero.desc")}</p>
-        </div>
-      </section>
+      <PageTitle title={t("hero.title")} description={t("hero.desc")} />
 
       {/* Mission & Values */}
       <section className="bg-white py-16">

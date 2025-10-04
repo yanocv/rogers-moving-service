@@ -1,3 +1,96 @@
 {
-  "test": "Contact page translation loaded!"
+  "title": "Contact Us",
+  "subtitle": "Get in touch with Rogers Moving Service for all your moving needs",
+  "contactInfo": {
+    "title": "Contact Information",
+    "phone": "Phone",
+    "phoneNumber": "(555) 123-4567",
+    "email": "Email",
+    "emailAddress": "info@rogersmovingservice.com",
+    "address": "Address",
+    "fullAddress": "123 Main Street, Suite 100, Your City, State 12345"
+  },
+  "businessHours": {
+    "title": "Business Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "weekdays": "8:00 AM - 6:00 PM",
+    "saturday_hours": "9:00 AM - 4:00 PM",
+    "sunday_hours": "Closed",
+    "emergency": "24/7 Emergency Services Available"
+  },
+  "contactForm": {
+    "title": "Get a Free Quote",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "service": "Service Type",
+    "servicePlaceholder": "Select service type",
+    "serviceOptions": {
+      "residential": "Residential Moving",
+      "commercial": "Commercial Moving",
+      "longDistance": "Long Distance Moving",
+      "storage": "Storage Services",
+      "packing": "Packing Services"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your moving needs...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or call us directly."
+  },
+  "quickContact": {
+    "title": "Quick Contact",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "Chat with us on WhatsApp",
+    "call": "Call Now",
+    "callText": "Speak with our team",
+    "email": "Email Us",
+    "emailText": "Send us an email"
+  },
+  "socialMedia": {
+    "title": "Follow Us",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How far in advance should I book my move?",
+        "answer": "We recommend booking at least 2-4 weeks in advance, especially during peak moving seasons (summer months). However, we can often accommodate last-minute moves based on availability."
+      },
+      {
+        "question": "Do you provide packing materials?",
+        "answer": "Yes, we offer a full range of packing materials including boxes, bubble wrap, packing paper, and tape. We also provide professional packing services if you prefer to have our team handle the packing."
+      },
+      {
+        "question": "Are my belongings insured during the move?",
+        "answer": "Yes, we provide basic coverage for all moves. We also offer additional insurance options for valuable items. Our team will discuss coverage options with you during the estimate."
+      },
+      {
+        "question": "What areas do you service?",
+        "answer": "We provide moving services throughout the metropolitan area and offer long-distance moving services across the state and nationwide. Contact us to confirm service availability in your area."
+      },
+      {
+        "question": "How do you calculate moving costs?",
+        "answer": "Moving costs are based on factors including distance, size of the move, services required, and time of year. We provide free, detailed estimates with no hidden fees."
+      }
+    ]
+  },
+  "map": {
+    "title": "Visit Our Office",
+    "directions": "Get Directions"
+  }
 }

@@ -1,11 +1,96 @@
 {
   "title": "お問い合わせ",
-  "description": "ロジャーズ・ムービングサービスへのご質問やサポートはこちらからどうぞ。",
-  "name": "お名前",
-  "email": "メールアドレス",
-  "phone": "電話番号",
-  "message": "メッセージ",
-  "submit": "メッセージを送信",
-  "success": "メッセージが正常に送信されました。",
-  "error": "送信に失敗しました。もう一度お試しください。"
+  "subtitle": "Rogers Moving Service へ引越しのご相談はお気軽にどうぞ",
+  "contactInfo": {
+    "title": "連絡先情報",
+    "phone": "電話番号",
+    "phoneNumber": "(555) 123-4567",
+    "email": "メールアドレス",
+    "emailAddress": "info@rogersmovingservice.com",
+    "address": "住所",
+    "fullAddress": "123 Main Street, Suite 100, あなたの都市, 州 12345"
+  },
+  "businessHours": {
+    "title": "営業時間",
+    "monday": "月曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日",
+    "thursday": "木曜日",
+    "friday": "金曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "weekdays": "8:00 AM - 6:00 PM",
+    "saturday_hours": "9:00 AM - 4:00 PM",
+    "sunday_hours": "休業",
+    "emergency": "24時間365日緊急サービス対応可能"
+  },
+  "contactForm": {
+    "title": "無料見積もり依頼",
+    "name": "氏名",
+    "namePlaceholder": "氏名を入力してください",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "phone": "電話番号",
+    "phonePlaceholder": "電話番号を入力してください",
+    "service": "サービス種類",
+    "servicePlaceholder": "サービス種類を選択してください",
+    "serviceOptions": {
+      "residential": "一般引越し",
+      "commercial": "事業所移転",
+      "longDistance": "長距離引越し",
+      "storage": "保管サービス",
+      "packing": "梱包サービス"
+    },
+    "message": "メッセージ",
+    "messagePlaceholder": "引越し内容についてご記入ください...",
+    "submit": "送信",
+    "sending": "送信中...",
+    "success": "ありがとうございます！24時間以内にご連絡いたします。",
+    "error": "送信に失敗しました。再度お試しいただくか、お電話でご連絡ください。"
+  },
+  "quickContact": {
+    "title": "クイック連絡",
+    "whatsapp": "WhatsApp",
+    "whatsappText": "WhatsApp でチャット",
+    "call": "今すぐ電話",
+    "callText": "スタッフと話す",
+    "email": "メール送信",
+    "emailText": "メールでお問い合わせ"
+  },
+  "socialMedia": {
+    "title": "フォローする",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "questions": [
+      {
+        "question": "引越しはどれくらい前に予約すべきですか？",
+        "answer": "特に夏の繁忙期は、2～4週間前の予約をおすすめします。直前のご依頼も、空き状況により対応可能ですのでご相談ください。"
+      },
+      {
+        "question": "梱包資材は提供していますか？",
+        "answer": "はい、箱・プチプチ・梱包紙・テープなど各種梱包資材を用意しています。プロによる梱包サービスもございます。"
+      },
+      {
+        "question": "荷物に保険はかかっていますか？",
+        "answer": "はい、基本的な補償が含まれています。高価な物品には追加保険もご用意しております。お見積もり時にご説明いたします。"
+      },
+      {
+        "question": "対応エリアはどこですか？",
+        "answer": "都市圏全域および州内・全国の長距離引越しも承ります。詳細はお問い合わせください。"
+      },
+      {
+        "question": "引越し費用はどのように計算されますか？",
+        "answer": "移動距離・荷物量・サービス内容・時期などをもとにお見積もりします。無料で詳細なお見積もりをいたします。"
+      }
+    ]
+  },
+  "map": {
+    "title": "オフィス訪問",
+    "directions": "道順を見る"
+  }
 }
