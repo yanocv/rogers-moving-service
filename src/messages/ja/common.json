@@ -2,16 +2,16 @@
   "Header": {
     "nav": {
       "home": "ホーム",
-      "services": "サービス",
-      "about": "会社概要",
-      "contact": "お問い合わせ",
+      "servicesNav": "サービス",
+      "aboutNav": "会社概要",
+      "contactNav": "お問い合わせ",
       "quote": "見積もり依頼"
     }
   },
   "home": "ホーム",
-  "about": "会社概要",
-  "contact": "お問い合わせ",
-  "services": "サービス",
+  "aboutNav": "会社概要",
+  "contactNav": "お問い合わせ",
+  "servicesNav": "サービス",
   "jobs": "採用情報",
   "testimonials": "お客様の声",
   "inquiry": "見積もり依頼",

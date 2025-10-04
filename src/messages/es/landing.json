@@ -1,16 +1,128 @@
 {
-  "title": "Welcome to Rogers Moving Service",
-  "subtitle": "Professional Moving Solutions",
-  "description": "We make your move easy, safe, and affordable. Serving our community since 2005.",
-  "cta": "Get a Free Quote",
-  "features": [
-    "Experienced Team",
-    "Affordable Pricing",
-    "Local & Long Distance",
-    "Packing Services",
-    "Customer Satisfaction"
-  ],
-  "testimonials": "See what our customers say",
-  "contact": "Contact Us",
-  "getStarted": "Start Your Move"
+  "hero": {
+    "title": "Bienvenido a",
+    "subtitle": "Ya sea que planees mudarte dentro de la ciudad o a una región cercana, nuestro equipo dedicado está aquí para hacer tu transición ",
+    "smooth": "fácil y sin complicaciones",
+    "opportunity": "Un nuevo lugar trae nuevas oportunidades, y entendemos la emoción y los desafíos que esto implica.",
+    "cta": {
+      "quote": "Solicita Cotización",
+      "learn": "Saber Más"
+    }
+  },
+  "stats": {
+    "customers": "Clientes Satisfechos",
+    "experience": "Años de Experiencia",
+    "success": "Tasa de Éxito",
+    "rating": "Calificación de Clientes"
+  },
+  "intro": {
+    "title": "¿Listo para un Nuevo Capítulo?",
+    "p1": "Un cambio de entorno puede abrir nuevas oportunidades y experiencias.",
+    "p2": "Si planeas mudarte y quieres una transición sin estrés, nuestro equipo está aquí para ayudarte.",
+    "p3": "Con atención personalizada y meticulosa, aseguramos que tus pertenencias lleguen seguras a tu nuevo hogar.",
+    "p4": "Deja la complejidad de la mudanza en nuestras manos, para que disfrutes la emoción de tu nuevo comienzo.",
+    "box": {
+      "title": "Mudanza Profesional",
+      "desc": "Manejo experto de tus pertenencias"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "desc": "Soluciones integrales de mudanza adaptadas a tus necesidades en Tokio y alrededores",
+    "residential": {
+      "title": "Mudanza Residencial",
+      "description": "Servicios completos de mudanza de casas y apartamentos en Tokio y alrededores.",
+      "feature1": "Servicio completo de embalaje",
+      "feature2": "Desmontaje de muebles",
+      "feature3": "Transporte seguro",
+      "feature4": "Montaje en el nuevo lugar"
+    },
+    "storage": {
+      "title": "Soluciones de Almacenamiento",
+      "description": "Almacenamiento seguro en bodega para necesidades a corto o largo plazo con control de clima.",
+      "feature1": "Control de clima",
+      "feature2": "Seguridad 24/7",
+      "feature3": "Términos flexibles",
+      "feature4": "Acceso fácil"
+    },
+    "disposal": {
+      "title": "Servicios de Eliminación",
+      "description": "Eliminación responsable y reciclaje de artículos no deseados durante tu mudanza.",
+      "feature1": "Eliminación ecológica",
+      "feature2": "Retiro de muebles",
+      "feature3": "Reciclaje de electrónicos",
+      "feature4": "Destrucción de documentos"
+    }
+  },
+  "ease": {
+    "title": "Mudanza con Facilidad",
+    "box": {
+      "title": "Flota Profesional",
+      "desc": "Camiones modernos para transporte seguro"
+    },
+    "p1": {
+      "bold": "No hay trabajo demasiado pequeño o grande para nosotros.",
+      "rest": "Roger's Moving Company es tu socio de confianza para todas tus mudanzas en Tokio y alrededores."
+    },
+    "p2": "Ya sea que te mudes dentro de Tokio o a una región cercana, nuestro equipo experimentado está listo para hacer tu mudanza fácil.",
+    "p3": "Ofrecemos servicios de embalaje, desembalaje y mudanzas rápidas. Nuestro objetivo es ser la empresa de mudanzas preferida por extranjeros en Tokio.",
+    "badge": {
+      "insured": "Asegurado & Licenciado",
+      "ontime": "Servicio Puntual",
+      "quick": "Respuesta Rápida"
+    }
+  },
+  "storage": {
+    "title": "Soluciones de Almacenamiento",
+    "desc": "Guarda tus pertenencias en nuestra bodega el tiempo que necesites. Ya sea reduciendo espacio, necesitando almacenamiento extra o dejando el país temporalmente, nuestros servicios de almacenamiento están disponibles.",
+    "badge": {
+      "security": "Seguridad 24/7",
+      "climate": "Control de Clima"
+    },
+    "box": {
+      "title": "Almacenamiento Seguro",
+      "desc": "Bodega con control de clima"
+    }
+  },
+  "disposal": {
+    "title": "Servicios de Eliminación",
+    "desc": "Elimina artículos no deseados fácilmente. Nuestro equipo se encarga del proceso de manera eficiente y responsable.",
+    "feature1": "Métodos ecológicos de eliminación",
+    "feature2": "Reciclaje de electrónicos",
+    "feature3": "Retiro de muebles",
+    "feature4": "Destrucción de documentos"
+  },
+  "cta": {
+    "title": "¿Listo para tu Mudanza?",
+    "desc": "Contáctanos para una cotización gratuita y deja tu mudanza en nuestras manos.",
+    "call": "Llamar Ahora",
+    "email": "Solicitar por Email",
+    "area": "Tokio y Alrededores",
+    "availability": "Disponible 7 días a la semana",
+    "insured": "Totalmente Asegurado & Licenciado"
+  },
+  "footer": {
+    "desc": "Tu socio de confianza en mudanzas en Tokio, ofreciendo servicios profesionales y confiables.",
+    "services": {
+      "title": "Servicios",
+      "residential": "Mudanza Residencial",
+      "storage": "Soluciones de Almacenamiento",
+      "disposal": "Servicios de Eliminación",
+      "packing": "Servicios de Embalaje"
+    },
+    "areas": {
+      "title": "Áreas",
+      "tokyo": "Tokio",
+      "kanagawa": "Kanagawa",
+      "saitama": "Saitama",
+      "chiba": "Chiba"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "+81-XX-XXXX-XXXX",
+      "email": "info@rogermovingservice.com",
+      "location": "Tokio, Japón"
+    },
+    "copyright": "Todos los derechos reservados."
+  }
 }

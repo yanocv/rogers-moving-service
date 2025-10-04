@@ -1,7 +1,40 @@
 {
-  "title": "About Us",
-  "description": "Learn more about Rogers Moving Service, our mission, and our team.",
-  "mission": "Our mission is to provide professional moving solutions tailored to your needs.",
-  "team": "Meet our experienced and friendly team.",
-  "history": "Founded in 2005, we have helped thousands of customers move with ease."
+  "hero": {
+    "title": "About Us",
+    "desc": "Learn more about Rogers Moving Service, our mission, and our team."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "desc": "Our mission is to provide professional moving solutions tailored to your needs.",
+    "badge": {
+      "insured": "Fully Insured & Licensed",
+      "reliable": "Reliable & Trustworthy",
+      "customer": "Customer-Focused"
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "desc": "Founded in 2005, we have helped thousands of customers move with ease.",
+    "moveCount": "Over 5,000 successful moves",
+    "experience": "15+ years of experience",
+    "certified": "Certified by Japan Moving Association",
+    "rating": "4.9/5 customer satisfaction rating",
+    "accredited": "Accredited & Award-Winning"
+  },
+  "team": {
+    "title": "Meet the Team",
+    "desc": "Meet our experienced and friendly team.",
+    "founder": "Founder & CEO",
+    "founderDesc": "20+ years in the moving industry, committed to excellence.",
+    "manager": "Operations Manager",
+    "managerDesc": "Ensures every move runs smoothly and efficiently.",
+    "customerLead": "None",
+    "customerRole": "Customer Success Lead",
+    "customerDesc": "Dedicated to customer satisfaction and support."
+  },
+  "cta": {
+    "title": "Ready to Move with Us?",
+    "desc": "Contact us today for a free quote and experience a professional, stress-free move.",
+    "button": "Get Free Quote"
+  }
 }

@@ -50,19 +50,19 @@ export default function Header() {
                 href={`/${locale}/service`}
                 className="px-3 py-2 text-sm font-medium text-gray-900 transition-colors hover:text-blue-600"
               >
-                {t("nav.services")}
+                {t("nav.servicesNav")}
               </Link>
               <Link
                 href={`/${locale}/about`}
                 className="px-3 py-2 text-sm font-medium text-gray-900 transition-colors hover:text-blue-600"
               >
-                {t("nav.about")}
+                {t("nav.aboutNav")}
               </Link>
               <Link
                 href={`/${locale}/contact`}
                 className="px-3 py-2 text-sm font-medium text-gray-900 transition-colors hover:text-blue-600"
               >
-                {t("nav.contact")}
+                {t("nav.contactNav")}
               </Link>
               <Link href={`/${locale}/inquiry`}>
                 <Button
@@ -103,19 +103,19 @@ export default function Header() {
               href={`/${locale}/service`}
               className="block px-3 py-2 text-gray-900 transition-colors hover:text-blue-600"
             >
-              {t("nav.services")}
+              {t("nav.servicesNav")}
             </Link>
             <Link
               href={`/${locale}/about`}
               className="block px-3 py-2 text-gray-900 transition-colors hover:text-blue-600"
             >
-              {t("nav.about")}
+              {t("nav.aboutNav")}
             </Link>
             <Link
               href={`/${locale}/contact`}
               className="block px-3 py-2 text-gray-900 transition-colors hover:text-blue-600"
             >
-              {t("nav.contact")}
+              {t("nav.contactNav")}
             </Link>
             <Link href={`/${locale}/inquiry`} className="mt-2 block w-full">
               <Button

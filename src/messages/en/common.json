@@ -2,16 +2,16 @@
   "Header": {
     "nav": {
       "home": "Home",
-      "services": "Services",
-      "about": "About",
-      "contact": "Contact",
+      "servicesNav": "Services",
+      "aboutNav": "About",
+      "contactNav": "Contacts",
       "quote": "Get Quote"
     }
   },
   "home": "Home",
-  "about": "About",
-  "contact": "Contact",
-  "services": "Services",
+  "aboutNav": "About",
+  "contactNav": "Contacts",
+  "servicesNav": "Services",
   "jobs": "Jobs",
   "testimonials": "Testimonials",
   "inquiry": "Inquiry",

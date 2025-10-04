@@ -1,16 +1,128 @@
 {
-  "title": "Welcome to Rogers Moving Service",
-  "subtitle": "Professional Moving Solutions",
-  "description": "We make your move easy, safe, and affordable. Serving our community since 2005.",
-  "cta": "Get a Free Quote",
-  "features": [
-    "Experienced Team",
-    "Affordable Pricing",
-    "Local & Long Distance",
-    "Packing Services",
-    "Customer Satisfaction"
-  ],
-  "testimonials": "See what our customers say",
-  "contact": "Contact Us",
-  "getStarted": "Start Your Move"
+  "hero": {
+    "title": "Bem-vindo à",
+    "subtitle": "Se você está planejando se mudar dentro da cidade ou para uma região vizinha, nossa equipe dedicada está aqui para tornar sua transição ",
+    "smooth": "suave e sem complicações",
+    "opportunity": "Um novo local traz novas oportunidades, e entendemos a empolgação e os desafios que vêm com isso.",
+    "cta": {
+      "quote": "Solicite Orçamento",
+      "learn": "Saiba Mais"
+    }
+  },
+  "stats": {
+    "customers": "Clientes Satisfeitos",
+    "experience": "Anos de Experiência",
+    "success": "Taxa de Sucesso",
+    "rating": "Avaliação dos Clientes"
+  },
+  "intro": {
+    "title": "Pronto para um Novo Capítulo?",
+    "p1": "Uma mudança de cenário pode abrir novas oportunidades e experiências.",
+    "p2": "Se você está planejando uma mudança e quer uma transição tranquila, nossa equipe está aqui para ajudar.",
+    "p3": "Com atendimento personalizado e atenção aos detalhes, garantimos que seus pertences sejam transportados com segurança para o novo lar.",
+    "p4": "Deixe a complexidade da mudança conosco, para que você possa aproveitar o entusiasmo do novo começo.",
+    "box": {
+      "title": "Mudança Profissional",
+      "desc": "Manuseio especializado dos seus pertences"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "desc": "Soluções completas de mudança adaptadas às suas necessidades em Tóquio e região",
+    "residential": {
+      "title": "Mudança Residencial",
+      "description": "Serviços completos de mudança de casas e apartamentos em Tóquio e região.",
+      "feature1": "Serviço completo de embalagem",
+      "feature2": "Desmontagem de móveis",
+      "feature3": "Transporte seguro",
+      "feature4": "Montagem no novo local"
+    },
+    "storage": {
+      "title": "Soluções de Armazenamento",
+      "description": "Armazenamento seguro em depósito para necessidades de curto ou longo prazo com controle de clima.",
+      "feature1": "Controle de clima",
+      "feature2": "Segurança 24/7",
+      "feature3": "Termos flexíveis",
+      "feature4": "Acesso fácil"
+    },
+    "disposal": {
+      "title": "Serviços de Descarte",
+      "description": "Descarte responsável e reciclagem de itens indesejados durante sua mudança.",
+      "feature1": "Descarte ecológico",
+      "feature2": "Remoção de móveis",
+      "feature3": "Reciclagem de eletrônicos",
+      "feature4": "Destruição de documentos"
+    }
+  },
+  "ease": {
+    "title": "Mudança com Facilidade",
+    "box": {
+      "title": "Frota Profissional",
+      "desc": "Caminhões modernos para transporte seguro"
+    },
+    "p1": {
+      "bold": "Nenhum serviço é pequeno ou grande demais para nós.",
+      "rest": "Roger's Moving Company é seu parceiro de confiança para todas as mudanças em Tóquio e região."
+    },
+    "p2": "Seja mudando dentro de Tóquio ou para uma região vizinha, nossa equipe experiente está pronta para tornar sua mudança tranquila.",
+    "p3": "Oferecemos serviços de embalagem, desembalagem e mudanças rápidas. Nosso objetivo é ser a empresa de mudanças de referência para estrangeiros em Tóquio.",
+    "badge": {
+      "insured": "Segurado & Licenciado",
+      "ontime": "Serviço Pontual",
+      "quick": "Resposta Rápida"
+    }
+  },
+  "storage": {
+    "title": "Soluções de Armazenamento",
+    "desc": "Guarde seus pertences em nosso depósito pelo tempo que precisar. Seja reduzindo espaço, precisando de armazenamento extra ou deixando o país temporariamente, nossos serviços de armazenamento estão à disposição.",
+    "badge": {
+      "security": "Segurança 24/7",
+      "climate": "Controle de Clima"
+    },
+    "box": {
+      "title": "Armazenamento Seguro",
+      "desc": "Depósito com controle de clima"
+    }
+  },
+  "disposal": {
+    "title": "Serviços de Descarte",
+    "desc": "Descarte itens indesejados com facilidade. Nossa equipe cuida do processo de forma eficiente e responsável.",
+    "feature1": "Métodos ecológicos de descarte",
+    "feature2": "Reciclagem de eletrônicos",
+    "feature3": "Remoção de móveis",
+    "feature4": "Destruição de documentos"
+  },
+  "cta": {
+    "title": "Pronto para sua Mudança?",
+    "desc": "Entre em contato para um orçamento gratuito e deixe sua mudança por nossa conta.",
+    "call": "Ligar Agora",
+    "email": "Solicitar por Email",
+    "area": "Tóquio e Região",
+    "availability": "Disponível 7 dias por semana",
+    "insured": "Totalmente Segurado & Licenciado"
+  },
+  "footer": {
+    "desc": "Seu parceiro de confiança em mudanças em Tóquio, oferecendo serviços profissionais e confiáveis.",
+    "services": {
+      "title": "Serviços",
+      "residential": "Mudança Residencial",
+      "storage": "Soluções de Armazenamento",
+      "disposal": "Serviços de Descarte",
+      "packing": "Serviços de Embalagem"
+    },
+    "areas": {
+      "title": "Áreas",
+      "tokyo": "Tóquio",
+      "kanagawa": "Kanagawa",
+      "saitama": "Saitama",
+      "chiba": "Chiba"
+    },
+    "contact": {
+      "title": "Contato",
+      "phone": "+81-XX-XXXX-XXXX",
+      "email": "info@rogermovingservice.com",
+      "location": "Tóquio, Japão"
+    },
+    "copyright": "Todos os direitos reservados."
+  }
 }

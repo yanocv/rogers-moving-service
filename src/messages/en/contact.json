@@ -1,11 +1,3 @@
 {
-  "title": "Contact Us",
-  "description": "Get in touch with Rogers Moving Service for inquiries or support.",
-  "name": "Name",
-  "email": "Email",
-  "phone": "Phone",
-  "message": "Message",
-  "submit": "Send Message",
-  "success": "Your message has been sent successfully.",
-  "error": "Failed to send message. Please try again."
+  "test": "Contact page translation loaded!"
 }

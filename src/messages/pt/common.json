@@ -2,16 +2,16 @@
   "Header": {
     "nav": {
       "home": "Início",
-      "services": "Serviços",
-      "about": "Sobre",
-      "contact": "Contato",
+      "servicesNav": "Serviços",
+      "aboutNav": "Sobre",
+      "contactNav": "Contato",
       "quote": "Solicitar Orçamento"
     }
   },
   "home": "Home",
-  "about": "About",
-  "contact": "Contact",
-  "services": "Services",
+  "aboutNav": "About",
+  "contactNav": "Contact",
+  "servicesNav": "Services",
   "jobs": "Jobs",
   "testimonials": "Testimonials",
   "inquiry": "Inquiry",

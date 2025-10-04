@@ -1,16 +1,128 @@
 {
-  "title": "Welcome to Rogers Moving Service",
-  "subtitle": "Professional Moving Solutions",
-  "description": "We make your move easy, safe, and affordable. Serving our community since 2005.",
-  "cta": "Get a Free Quote",
-  "features": [
-    "Experienced Team",
-    "Affordable Pricing",
-    "Local & Long Distance",
-    "Packing Services",
-    "Customer Satisfaction"
-  ],
-  "testimonials": "See what our customers say",
-  "contact": "Contact Us",
-  "getStarted": "Start Your Move"
+  "hero": {
+    "title": "Welcome to",
+    "subtitle": "Whether you are planning to move across town or to a neighboring region, our dedicated team is here to make your transition ",
+    "smooth": "smooth and hassle-free",
+    "opportunity": "A new location brings new opportunities, and we understand the excitement and challenges that come with it.",
+    "cta": {
+      "quote": "Get Free Quote",
+      "learn": "Learn More"
+    }
+  },
+  "stats": {
+    "customers": "Happy Customers",
+    "experience": "Years Experience",
+    "success": "Success Rate",
+    "rating": "Customer Rating"
+  },
+  "intro": {
+    "title": "Ready to Start a New Chapter?",
+    "p1": "A change of scenery can open up fresh opportunities and new experiences.",
+    "p2": "If you're planning a move and want a seamless transition, our team is here to help make it stress-free.",
+    "p3": "With a commitment to personalized service and meticulous attention to detail, we ensure that your belongings are transported safely to your new home.",
+    "p4": "Let us handle the complexities of moving, so you can enjoy the excitement of your new beginning.",
+    "box": {
+      "title": "Professional Moving",
+      "desc": "Expert handling of your belongings"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "desc": "Comprehensive moving solutions tailored to your needs in Tokyo and surrounding areas",
+    "residential": {
+      "title": "Residential Moving",
+      "description": "Complete house and apartment moving services throughout Tokyo and surrounding areas.",
+      "feature1": "Full packing service",
+      "feature2": "Furniture disassembly",
+      "feature3": "Safe transport",
+      "feature4": "Setup at new location"
+    },
+    "storage": {
+      "title": "Storage Solutions",
+      "description": "Secure warehouse storage for short-term or long-term needs with climate control.",
+      "feature1": "Climate controlled",
+      "feature2": "24/7 security",
+      "feature3": "Flexible terms",
+      "feature4": "Easy access"
+    },
+    "disposal": {
+      "title": "Disposal Services",
+      "description": "Responsible disposal and recycling of unwanted items during your move.",
+      "feature1": "Eco-friendly disposal",
+      "feature2": "Furniture removal",
+      "feature3": "Electronic recycling",
+      "feature4": "Document shredding"
+    }
+  },
+  "ease": {
+    "title": "Moving with Ease",
+    "box": {
+      "title": "Professional Fleet",
+      "desc": "Modern trucks for safe transport"
+    },
+    "p1": {
+      "bold": "No job is too small or too big for us.",
+      "rest": "Roger's Moving Company is your trusted partner for all your moving needs in Tokyo and surrounding areas."
+    },
+    "p2": "Whether you're moving within Tokyo or to a neighboring region, our experienced team is here to make your move smooth and hassle-free.",
+    "p3": "We offer a range of services including packing, unpacking, and quick moving services. Our goal is to be the English-speaking moving company of choice for residents in Tokyo.",
+    "badge": {
+      "insured": "Insured & Licensed",
+      "ontime": "On-Time Service",
+      "quick": "Quick Response"
+    }
+  },
+  "storage": {
+    "title": "Storage Solutions",
+    "desc": "Store your belongings at our warehouse for as long as you need. Whether you're downsizing, in need of extra space, or temporarily leaving the country, our storage services are here to help.",
+    "badge": {
+      "security": "24/7 Security",
+      "climate": "Climate Control"
+    },
+    "box": {
+      "title": "Secure Storage",
+      "desc": "Climate-controlled warehouse"
+    }
+  },
+  "disposal": {
+    "title": "Disposal Services",
+    "desc": "Dispose of unwanted items with ease. Our team will handle the disposal process efficiently and responsibly, giving you peace of mind.",
+    "feature1": "Eco-friendly disposal methods",
+    "feature2": "Electronics recycling",
+    "feature3": "Furniture removal service",
+    "feature4": "Document shredding available"
+  },
+  "cta": {
+    "title": "Ready to Make Your Move?",
+    "desc": "Contact us today for a free quote and let us handle your next move with care and professionalism.",
+    "call": "Call Now",
+    "email": "Email Quote",
+    "area": "Tokyo & Surrounding Areas",
+    "availability": "Available 7 Days a Week",
+    "insured": "Fully Insured & Licensed"
+  },
+  "footer": {
+    "desc": "Your trusted moving partner in Tokyo, providing professional and reliable moving services.",
+    "services": {
+      "title": "Services",
+      "residential": "Residential Moving",
+      "storage": "Storage Solutions",
+      "disposal": "Disposal Services",
+      "packing": "Packing Services"
+    },
+    "areas": {
+      "title": "Areas",
+      "tokyo": "Tokyo Metropolitan",
+      "kanagawa": "Kanagawa Prefecture",
+      "saitama": "Saitama Prefecture",
+      "chiba": "Chiba Prefecture"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+81-XX-XXXX-XXXX",
+      "email": "info@rogermovingservice.com",
+      "location": "Tokyo, Japan"
+    },
+    "copyright": "All rights reserved."
+  }
 }
