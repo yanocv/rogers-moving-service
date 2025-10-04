@@ -13,8 +13,8 @@ const DisposalSection = () => {
               <div className="flex items-center justify-center bg-gradient-to-br from-orange-400 to-red-500 p-8">
                 <div className="text-center text-white">
                   <Package className="mx-auto mb-4 h-32 w-32 opacity-80" />
-                  <h3 className="mb-2 text-2xl font-bold">Eco-Friendly Disposal</h3>
-                  <p className="opacity-80">Responsible waste management</p>
+                  <h3 className="mb-2 text-2xl font-bold">{t("ecoDisposal.title")}</h3>
+                  <p className="opacity-80">{t("ecoDisposal.desc")}</p>
                 </div>
               </div>
             </div>

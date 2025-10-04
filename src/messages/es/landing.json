@@ -101,6 +101,10 @@
     "availability": "Disponible 7 días a la semana",
     "insured": "Totalmente Asegurado & Licenciado"
   },
+  "ecoDisposal": {
+    "title": "Eliminación ecológica",
+    "desc": "Gestión responsable de residuos"
+  },
   "footer": {
     "desc": "Tu socio de confianza en mudanzas en Tokio, ofreciendo servicios profesionales y confiables.",
     "services": {

@@ -101,6 +101,10 @@
     "availability": "Disponível 7 dias por semana",
     "insured": "Totalmente Segurado & Licenciado"
   },
+  "ecoDisposal": {
+    "title": "Descarte ecológico",
+    "desc": "Gestão responsável de resíduos"
+  },
   "footer": {
     "desc": "Seu parceiro de confiança em mudanças em Tóquio, oferecendo serviços profissionais e confiáveis.",
     "services": {

@@ -101,6 +101,10 @@
     "availability": "Available 7 Days a Week",
     "insured": "Fully Insured & Licensed"
   },
+  "ecoDisposal": {
+    "title": "Eco-Friendly Disposal",
+    "desc": "Responsible waste management"
+  },
   "footer": {
     "desc": "Your trusted moving partner in Tokyo, providing professional and reliable moving services.",
     "services": {

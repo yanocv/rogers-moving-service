@@ -101,6 +101,10 @@
     "availability": "年中無休",
     "insured": "保険・許可取得済み"
   },
+  "ecoDisposal": {
+    "title": "環境に優しい廃棄",
+    "desc": "責任ある廃棄管理"
+  },
   "footer": {
     "desc": "東京で信頼される引越し会社。プロフェッショナルなサービスを提供します。",
     "services": {
