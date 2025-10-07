@@ -1,10 +1,28 @@
 {
-  "title": "Our Services",
-  "description": "Discover our full range of moving services.",
-  "localMoving": "Local Moving",
-  "longDistance": "Long Distance Moving",
-  "packing": "Packing & Unpacking",
-  "storage": "Secure Storage",
-  "insurance": "Moving Insurance",
-  "requestQuote": "Request a Quote"
+  "title": "Nuestros Servicios",
+  "desc": "Descubre cómo hacemos que mudanzas, almacenamiento y eliminación sean sencillos. Nuestro equipo ofrece fiabilidad, cuidado y tranquilidad en cada paso de tu proceso.",
+  "residential": {
+    "title": "Mudanza Residencial",
+    "description": "Múdate con confianza. Nuestros expertos manejan tus pertenencias con cuidado, asegurando una transición sin problemas a tu nuevo hogar.",
+    "feature1": "Empaque y desempaque profesional",
+    "feature2": "Horarios flexibles según tus necesidades",
+    "feature3": "Transporte seguro para todos los artículos",
+    "feature4": "Equipo amable y experimentado"
+  },
+  "storage": {
+    "title": "Soluciones de Almacenamiento Seguro",
+    "description": "Guarda tus pertenencias de forma segura en nuestras instalaciones modernas y climatizadas. Accede a tus objetos cuando lo necesites.",
+    "feature1": "Opciones a corto y largo plazo",
+    "feature2": "Vigilancia de seguridad 24/7",
+    "feature3": "Acceso y recuperación fáciles",
+    "feature4": "Unidades limpias y climatizadas"
+  },
+  "disposal": {
+    "title": "Eliminación Ecológica",
+    "description": "Elimina objetos no deseados de manera responsable. Reciclamos y desechamos bienes de forma respetuosa con el medio ambiente.",
+    "feature1": "Prácticas responsables de reciclaje",
+    "feature2": "Retiro de artículos voluminosos",
+    "feature3": "Servicio rápido y sin complicaciones",
+    "feature4": "Precios transparentes"
+  }
 }

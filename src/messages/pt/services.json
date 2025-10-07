@@ -1,10 +1,28 @@
 {
-  "title": "Our Services",
-  "description": "Discover our full range of moving services.",
-  "localMoving": "Local Moving",
-  "longDistance": "Long Distance Moving",
-  "packing": "Packing & Unpacking",
-  "storage": "Secure Storage",
-  "insurance": "Moving Insurance",
-  "requestQuote": "Request a Quote"
+  "title": "Nossos Serviços",
+  "desc": "Descubra como tornamos mudanças, armazenamento e descarte fáceis. Nossa equipe oferece confiabilidade, cuidado e tranquilidade em cada etapa da sua jornada.",
+  "residential": {
+    "title": "Mudança Residencial",
+    "description": "Mude com confiança. Nossos especialistas cuidam dos seus pertences com atenção, garantindo uma transição tranquila para seu novo lar.",
+    "feature1": "Embalagem e desembalagem profissional",
+    "feature2": "Agendamento flexível conforme sua necessidade",
+    "feature3": "Transporte seguro para todos os itens",
+    "feature4": "Equipe simpática e experiente"
+  },
+  "storage": {
+    "title": "Soluções de Armazenamento Seguro",
+    "description": "Guarde seus pertences com segurança em nossas instalações modernas e climatizadas. Acesse seus itens sempre que precisar.",
+    "feature1": "Opções de curto e longo prazo",
+    "feature2": "Monitoramento de segurança 24/7",
+    "feature3": "Acesso e retirada facilitados",
+    "feature4": "Unidades limpas e climatizadas"
+  },
+  "disposal": {
+    "title": "Descarte Ecológico",
+    "description": "Descarte itens indesejados de forma responsável. Reciclamos e descartamos bens de maneira ambientalmente consciente.",
+    "feature1": "Práticas responsáveis de reciclagem",
+    "feature2": "Remoção de itens volumosos",
+    "feature3": "Serviço rápido e sem complicações",
+    "feature4": "Preços transparentes"
+  }
 }

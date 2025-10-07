@@ -1,10 +1,28 @@
 {
   "title": "Our Services",
-  "description": "Discover our full range of moving services.",
-  "localMoving": "Local Moving",
-  "longDistance": "Long Distance Moving",
-  "packing": "Packing & Unpacking",
-  "storage": "Secure Storage",
-  "insurance": "Moving Insurance",
-  "requestQuote": "Request a Quote"
+  "desc": "Discover how we make moving, storage, and disposal effortless. Our team delivers reliability, care, and peace of mind for every step of your journey.",
+  "residential": {
+    "title": "Residential Moving",
+    "description": "Move with confidence. Our expert movers handle your belongings with care, ensuring a smooth transition to your new home.",
+    "feature1": "Professional packing and unpacking",
+    "feature2": "Flexible scheduling to fit your needs",
+    "feature3": "Safe transport for all items",
+    "feature4": "Friendly, experienced team"
+  },
+  "storage": {
+    "title": "Secure Storage Solutions",
+    "description": "Store your possessions safely in our modern, climate-controlled facilities. Access your items whenever you need.",
+    "feature1": "Short and long-term options",
+    "feature2": "24/7 security monitoring",
+    "feature3": "Easy access and retrieval",
+    "feature4": "Clean, climate-controlled units"
+  },
+  "disposal": {
+    "title": "Eco-Friendly Disposal",
+    "description": "Clear out unwanted items responsibly. We recycle and dispose of goods in an environmentally conscious way.",
+    "feature1": "Responsible recycling practices",
+    "feature2": "Bulk item removal",
+    "feature3": "Fast, hassle-free service",
+    "feature4": "Transparent pricing"
+  }
 }
