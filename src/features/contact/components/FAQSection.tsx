@@ -49,10 +49,10 @@ export default function FAQSection() {
                 value={`faq-${index}`}
                 className="rounded-lg border border-gray-200"
               >
-                <AccordionTrigger className="w-full p-6 text-left text-lg font-semibold text-gray-800 hover:no-underline focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-inset">
+                <AccordionTrigger className="w-full border border-gray-200 p-6 text-left text-lg font-semibold text-gray-800 hover:no-underline focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-inset">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="px-6 pb-6">
+                <AccordionContent className="px-6 py-6">
                   <p className="leading-relaxed text-gray-600">{faq.answer}</p>
                 </AccordionContent>
               </AccordionItem>
